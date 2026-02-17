@@ -1,0 +1,73 @@
+/* ===== STAFF DASHBOARD ===== */
+
+.dashboard-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ===== Appointment Cards ===== */
+
+.appointment-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.appointment-card:hover {
+  transform: translateY(-3px);
+  background: #334155;
+}
+
+.appointment-card p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* ===== Buttons ===== */
+
+.appointment-card button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.appointment-card button:first-of-type {
+  background: #16a34a;
+  color: white;
+}
+
+.appointment-card button:first-of-type:hover {
+  background: #15803d;
+}
+
+.appointment-card button:last-of-type {
+  background: #dc2626;
+  color: white;
+}
+
+.appointment-card button:last-of-type:hover {
+  background: #b91c1c;
+}
+
+/* ===== Empty Message ===== */
+
+.dashboard-container p {
+  text-align: center;
+  margin-top: 20px;
+}

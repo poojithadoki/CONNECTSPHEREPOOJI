@@ -1,0 +1,56 @@
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1f2937;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 8px 12px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.admin-body {
+  display: flex;
+  flex: 1;
+}
+
+.side-navbar {
+  width: 220px;
+  background: #f3f4f6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.side-navbar button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #e5e7eb;
+  border-radius: 6px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}

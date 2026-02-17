@@ -1,0 +1,42 @@
+.notifications-container {
+  min-height: 100vh;
+  background: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.notifications-card {
+  background: white;
+  padding: 40px;
+  width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.notifications-card:hover {
+  transform: translateY(-5px);
+}
+
+.notifications-title {
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.notifications-text {
+  font-size: 1rem;
+  color: #475569;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.warning {
+  color: #dc2626;
+  font-weight: 500;
+}
